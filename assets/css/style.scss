@@ -3,6 +3,18 @@
 
 @import "jekyll-theme-minimalistic";
 
+body {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+[data-theme="light"] {
+  @import "colors-light";
+}
+
+[data-theme="dark"] {
+  @import "colors-dark";
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -52,6 +64,18 @@
   font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.logo {
+  display: block;
+  transition: transform 0.2s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
 @media screen and (max-width: 700px){
   .box {
     width: 70%;
@@ -59,4 +83,10 @@
   .popup {
     width: 70%;
   }
+  .logo {
+    // max-width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
+

@@ -1,5 +1,7 @@
 {% if site.logo %}
-<img class="logo" src="{{ site.logo | relative_url }}" alt="Logo">
+<a href="{{ '/' | relative_url }}">
+  <img class="logo" src="{{ site.logo | relative_url }}" alt="Logo">
+</a>
 {% endif %}
 
 {% if site.blank_title %}

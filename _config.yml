@@ -1,9 +1,9 @@
-title: Minimalistic
-logo: /assets/img/logo.jpg
-email: person@address.com
-description: Minimalistic is a theme powered by Jekyll.
+title: Hojoon Kim
+logo: /assets/img/Hojoon-Birthday.jpg
+email: hojoon.kim@gmail.com
+# description: Minimalistic is a theme powered by Jekyll.
 favicon: true
-color-scheme: auto
+# color-scheme: light
 
 plugins:
   - jekyll-sitemap
@@ -13,10 +13,10 @@ plugins:
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
+    link: https://github.com/kim-hojoon
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
+    link: https://www.linkedin.com/in/kim-hojoon
 
 navigation:
   - name: Readme
