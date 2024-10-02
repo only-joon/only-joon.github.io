@@ -1,6 +1,6 @@
 title: Hojoon Kim
 logo: /assets/img/Hojoon-Birthday.jpg
-email: hojoon.kim@gmail.com
+email: hojoonkim.02@gmail.com
 favicon: true
 description: RTOS Developer @ RTST <br> CS Undergraduate @ KAIST
 # color-scheme: auto
@@ -11,15 +11,18 @@ plugins:
   - jemoji
 
 platforms:
-  - name: CV
-    icon: <i class="ai ai-cv big-icon"></i>
-    link: /assets/cv.pdf
+  - name: Email
+    icon: <i class="fa-regular fa-envelope"></i>
+    link: mailto:hojoonkim.02@gmail.com
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/kim-hojoon
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/kim-hojoon
+  - name: CV
+    icon: <i class="ai ai-cv big-icon"></i>
+    link: /assets/cv.pdf
 
 navigation:
   - name: About Me

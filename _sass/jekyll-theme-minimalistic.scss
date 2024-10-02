@@ -428,7 +428,12 @@ hr {
   }
 }
 
-.header-title h1, .header-title p {
+.header-title h1 {
   text-align: center;
   margin-bottom: 15px;
+}
+
+.header-title p, ul.link{
+  text-align: center;
+  margin-bottom: 25px;
 }

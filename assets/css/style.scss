@@ -151,23 +151,21 @@ input:checked + .slider:before {
   color: white;
 }
 
-/* CV Button */
-.cv-button {
-  display: inline-block;
-  padding: 4px 8px;
-  margin: 5px 0 0 0;
-  font-size: 14px;
-  color: #fff;
-  background-color: #333;
-  border: none;
-  border-radius: 3px;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.2s, transform 0.2s;
+/* Horizontal Icons */
+.horizontal-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-.cv-button:hover {
-  background-color: #555;
-  color: #fff;
-  transform: scale(1.05);
+.horizontal-icons a {
+  width: 35px;
+  height: 35px;
+}
+
+.horizontal-icons a i {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
