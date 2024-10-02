@@ -10,4 +10,8 @@
 <h1>{{ site.title | default: site.github.repository_name }}</h1>
 {% endif %}
 
-<p>{{ site.description }}</p>
+<p class="cv-link">
+  <a href="{{ '/assets/cv.pdf' | relative_url }}">Download CV</a>
+</p>
+
+<p class="description">{{ site.description }}</p>
