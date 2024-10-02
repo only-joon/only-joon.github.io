@@ -30,5 +30,5 @@ navigation:
     # sublist:
     #   - name: Image
     #     link: ./index.html#small-image
-  - name: Projects
-    link: ./projects.html
+  # - name: Projects
+  #   link: ./projects.html
