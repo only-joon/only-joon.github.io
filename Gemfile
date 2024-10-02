@@ -19,3 +19,6 @@ gem "webrick"
 gem "jemoji"
 gem "kramdown-parser-gfm"
 gem "jekyll-remote-theme"
+gem "jekyll-feed", "~> 0.17.0"
+
+gem "jekyll-gist", "~> 1.5"

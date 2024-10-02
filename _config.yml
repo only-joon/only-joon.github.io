@@ -2,6 +2,7 @@ title: Hojoon Kim
 logo: /assets/img/Hojoon-Birthday.jpg
 email: hojoonkim.02@gmail.com
 description: RTOS Developer @ RTST <br> CS Undergraduate @ KAIST
+url: https://kim-hojoon.github.io
 favicon: true
 # color-scheme: auto
 google_analytics: G-WCHGK3L6Q9
@@ -9,6 +10,8 @@ google_analytics: G-WCHGK3L6Q9
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-gist
   - jemoji
 
 platforms:
