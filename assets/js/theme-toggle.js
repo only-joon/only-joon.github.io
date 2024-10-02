@@ -4,13 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
     loadThemeStylesheet(currentTheme);
 
     const themeToggleBtn = document.getElementById('theme-toggle');
-    themeToggleBtn.addEventListener('click', function() {
-        let theme = localStorage.getItem('theme');
-        if (theme === 'dark') {
-            theme = 'light';
-        } else {
-            theme = 'dark';
-        }
+    themeToggleBtn.checked = currentTheme === 'dark';
+
+    themeToggleBtn.addEventListener('change', function() {
+        let theme = themeToggleBtn.checked ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);
         loadThemeStylesheet(theme);
