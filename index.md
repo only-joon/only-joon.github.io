@@ -4,15 +4,15 @@ layout: default
 
 ## About Me
 
-I am a senior CS undergraduate student at **KAIST**.
+I am a senior CS undergraduate student at [**KAIST**](https://www.kaist.ac.kr).
 <br>
-I am currently working as a RTOS Developer at **RTST**.
+I am currently working as a RTOS Developer at [**RTST**](https://www.rtst.co.kr).
 
 ## Education
 
-* **KAIST** (2021 - Current)
+* [**KAIST**](https://www.kaist.ac.kr) (2021 - Current)
   * B.S. in Computer Science and Electrical Engineering
-* **EPFL** (Feb. 2024 - Jul. 2024)
+* [**EPFL**](https://www.epfl.ch/en/)  (Feb. 2024 - Jul. 2024)
   * Exchange Student in Computer Science
 
 ## Research Interests
@@ -23,12 +23,12 @@ I am currently working as a RTOS Developer at **RTST**.
 
 ## Research Experience
 
-* Visiting Researcher @ **PARSA** (Parallel Systems Architecture Lab)
-  * Advisor: Prof. Babak Falsafi
+* Visiting Researcher @ [**PARSA**](https://parsa.epfl.ch) (Parallel Systems Architecture Lab)
+  * Advisor: Prof. [Babak Falsafi](https://parsa.epfl.ch/~falsafi/)
 
-* Undergraduate Researcher @ **CASYS** (Computer Architecture and Systems Lab)
-  * Advisor: Prof. Jongse Park
+* Undergraduate Researcher @ [**CASYS**](https:///casyslab.kaist.ac.kr/) (Computer Architecture and Systems Lab)
+  * Advisor: Prof. [Jongse Park](https://jongse-park.github.io/)
 
 ## Industry Experience
 
-* RTOS Developer @ **RTST**
+* RTOS Developer @ [**RTST**](https://www.rtst.co.kr)

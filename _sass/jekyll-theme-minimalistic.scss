@@ -58,11 +58,12 @@ h3, h4, h5, h6 {
 
 a {
   color:var(--clr-a-text);
-  text-decoration:none;
+  text-decoration: none;
 }
 
 a:hover, a:focus {
   color: var(--clr-a-text-hvr);
+  text-decoration: underline;
 }
 
 a small {
@@ -86,10 +87,14 @@ a:hover small {
 
 ul.link a {
   color:var(--clr-h1-and-bold);
+  transition: all 0.15s ease-in-out;
 }
 
 ul.link a:hover, a:focus {
-  color: var(--clr-a-text-hvr);
+  // color: var(--clr-a-text-hvr);
+  text-decoration: none;
+  transform: scale(1.15);
+  transition: all 0.15s ease-in-out;
 }
 
 ul.content {

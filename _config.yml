@@ -30,7 +30,7 @@ platforms:
 
 navigation:
   - name: About Me
-    link: ./index.html
+    link: .
     # sublist:
     #   - name: Image
     #     link: ./index.html#small-image

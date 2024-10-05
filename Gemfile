@@ -22,3 +22,5 @@ gem "jekyll-remote-theme"
 gem "jekyll-feed", "~> 0.17.0"
 
 gem "jekyll-gist", "~> 1.5"
+gem "em-websocket", "~> 0.5.3"
+gem "jekyll", "~> 4.2.0"
