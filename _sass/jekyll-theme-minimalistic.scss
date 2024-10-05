@@ -91,10 +91,17 @@ ul.link a {
 }
 
 ul.link a:hover, a:focus {
-  // color: var(--clr-a-text-hvr);
   text-decoration: none;
   transform: scale(1.15);
   transition: all 0.15s ease-in-out;
+}
+
+.link-wrapper-mobile ul.link a:hover {
+  color: var(--clr-a-text-hvr);
+}
+
+.link-wrapper-mobile i {
+  margin-right: 5px;
 }
 
 ul.content {
@@ -302,7 +309,7 @@ hr {
   }
 
   .sidebar {
-    width: 200px;
+    width: 225px;
     height: calc(100vh - 50px);  
   }
 
@@ -378,6 +385,10 @@ hr {
 
    .header-title-mobile section {
     padding: 20px 0;
+  }
+
+  .header-title-mobile p {
+    margin: 0;
   }
 
   .header-title {
