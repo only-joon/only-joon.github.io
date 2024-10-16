@@ -31,4 +31,4 @@ I am currently working as a RTOS Developer at [**RTST**](https://www.rtst.co.kr)
 
 ## Industry Experience
 
-* RTOS Developer @ [**RTST**](https://www.rtst.co.kr)
+* RTOS Researcher @ [**RTST**](https://www.rtst.co.kr)
