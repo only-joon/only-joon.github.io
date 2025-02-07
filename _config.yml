@@ -1,11 +1,10 @@
-title: Hojoon Kim
-logo: /assets/img/Hojoon-Birthday.jpg
-email: hojoonkim.02@gmail.com
-description: RTOS Researcher @ RTST <br> CS Undergraduate @ KAIST
-url: https://kim-hojoon.github.io
+title: 김현준
+logo: /assets/img/hyunjoon-kim.png
+email: jun9906@naver.com
+description: N/A
+url: https://only-joon.github.io
 favicon: true
 # color-scheme: auto
-google_analytics: G-WCHGK3L6Q9
 
 plugins:
   - jekyll-sitemap
@@ -15,18 +14,14 @@ plugins:
   - jemoji
 
 platforms:
+  - name: Phone
+    icon: <i class="fa-solid fa-phone"></i>
+    link: tel:+821062370565
+    content: 010-6237-0565
   - name: Email
     icon: <i class="fa-regular fa-envelope"></i>
-    link: mailto:hojoonkim.02@gmail.com
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/kim-hojoon
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/kim-hojoon
-  - name: CV
-    icon: <i class="ai ai-cv big-icon"></i>
-    link: /assets/cv.pdf
+    link: mailto:jun9906@naver.com
+    content: jun9906@naver.com
 
 navigation:
   - name: About Me

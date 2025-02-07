@@ -96,6 +96,10 @@ ul.link a:hover, a:focus {
   transition: all 0.15s ease-in-out;
 }
 
+.link-wrapper ul.link a:hover {
+  color: var(--clr-a-text-hvr);
+}
+
 .link-wrapper-mobile ul.link a:hover {
   color: var(--clr-a-text-hvr);
 }

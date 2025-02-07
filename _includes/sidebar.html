@@ -1,9 +1,16 @@
 <div class="link-wrapper">
   {% if site.platforms %}
-  <ul class="link horizontal-icons">
-    {%- for platform in site.platforms %}
-    <a href="{{ platform.link }}">{{ platform.icon }}</a>
-    {%- endfor %}
+  <ul class="link">
+  {%- for platform in site.platforms %}
+  <li style="margin-bottom: 10px; display: flex; align-items: center;">
+    <nobr>
+      <a href="{{ platform.link }}" rel="me" style="text-align: left; font-size: 1.1em;">
+        <span style="font-size: 1.1em; margin-right: 8px;">{{ platform.icon }}</span>
+        {{ platform.content }}
+      </a>
+    </nobr>
+  </li>
+  {%- endfor %}
   </ul>
   {% endif %}
 
@@ -31,5 +38,11 @@
       <span class="slider round"></span>
     </label>
   </div>
-
 </div>
+
+<style>
+  .link a {
+    color: inherit; /* Ensure the link inherits the color */
+    text-decoration: none; /* Remove underline */
+  }
+</style>
